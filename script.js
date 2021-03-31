@@ -36,6 +36,15 @@ function playerClickedRock() {
         // return "You Win! Rock beats Scissors";
         resultsParagraph.innerHTML = "You Win! Rock beats Scissors";
     }
-
 }
 
+function playerClickedPaper() {
+    let computerSelection = computerPlay();
+    if (computerSelection === "Rock") {
+        resultsParagraph.innerHTML = "You Win! Paper beats Rock";
+    } else if (computerSelection === "Paper") {
+        resultsParagraph.innerHTML = "Draw";
+    } else if (computerSelection === "Scissors") {
+        resultsParagraph.innerHTML = "You Lose! Scissors beats Paper";
+    }
+}
