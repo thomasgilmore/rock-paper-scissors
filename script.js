@@ -27,35 +27,35 @@ function playerClickedRock() {
     let computerSelection = computerPlay();
     // console.log(computerSelection);
     if (computerSelection === "Rock") {
-        resultsParagraph.innerHTML = "Rock: Draw";
+        resultsParagraph.innerHTML = "Computer choose Rock: Draw";
         // return "Draw";
     } else if (computerSelection === "Paper") {
         // return "You Lose! Paper beats Rock";
-        resultsParagraph.innerHTML = "Paper: You Lose! Paper beats Rock";
+        resultsParagraph.innerHTML = "Computer choose Paper: You Lose! Paper beats Rock";
     } else if (computerSelection === "Scissors") {
         // return "You Win! Rock beats Scissors";
-        resultsParagraph.innerHTML = "Scissors: You Win! Rock beats Scissors";
+        resultsParagraph.innerHTML = "Computer choose Scissors: You Win! Rock beats Scissors";
     }
 }
 
 function playerClickedPaper() {
     let computerSelection = computerPlay();
     if (computerSelection === "Rock") {
-        resultsParagraph.innerHTML = "Rock: You Win! Paper beats Rock";
+        resultsParagraph.innerHTML = "Computer choose Rock: You Win! Paper beats Rock";
     } else if (computerSelection === "Paper") {
-        resultsParagraph.innerHTML = "Paper: Draw";
+        resultsParagraph.innerHTML = "Computer choose Paper: Draw";
     } else if (computerSelection === "Scissors") {
-        resultsParagraph.innerHTML = "Scissors: You Lose! Scissors beats Paper";
+        resultsParagraph.innerHTML = "Computer choose Scissors: You Lose! Scissors beats Paper";
     }
 }
 
 function playerClickedScissors() {
     let computerSelection = computerPlay();
     if (computerSelection === "Rock") {
-        resultsParagraph.innerHTML = "Rock: You Lose! Rock beats Scissors";
+        resultsParagraph.innerHTML = "Computer choose Rock: You Lose! Rock beats Scissors";
     } else if (computerSelection === "Paper") {
-        resultsParagraph.innerHTML = "Paper: You Win! Scissors beats Paper";
+        resultsParagraph.innerHTML = "Computer choose Paper: You Win! Scissors beats Paper";
     } else if (computerSelection === "Scissors") {
-        resultsParagraph.innerHTML = "Scissors: Draw";
+        resultsParagraph.innerHTML = "Computer choose Scissors: Draw";
     }
 }

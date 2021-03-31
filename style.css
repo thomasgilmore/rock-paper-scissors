@@ -1,0 +1,18 @@
+button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 5px;
+    padding: 4px 6px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0 10px 7px;
+}
